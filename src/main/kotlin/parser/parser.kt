@@ -10,6 +10,7 @@ fun main() {
     for ((index, note) in notes.withIndex()) {
         println("${index + 1}. - ${note.text()}")
     }
+
 }
 
 const val urlBook =
